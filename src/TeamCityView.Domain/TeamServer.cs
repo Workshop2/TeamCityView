@@ -29,7 +29,10 @@ namespace TeamCityView.Domain
             List<User> users = _client.Users.AllUsersByUserGroup(teamName);
             List<Build> builds = ListLatestBuildsForUsersInLast24Hours(users);
 
-            return builds.OrderByDescending(x => x.FinishDate).ToArray();
+            return builds
+                .OrderByDescending(x => x.StartDate)
+                .Take(10)
+                .ToArray();
         }
 
         private List<Build> ListLatestBuildsForUsersInLast24Hours(List<User> users)
