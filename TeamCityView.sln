@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityView.Web", "src\Tea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityView.IisConfig", "src\TeamCityView.IisConfig\TeamCityView.IisConfig.csproj", "{221A0889-3F32-41EE-A70A-39ACCB477C18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityView.Domain", "src\TeamCityView.Domain\TeamCityView.Domain.csproj", "{FF9CDDEB-1628-456F-B7CE-AC0521E0DD5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{221A0889-3F32-41EE-A70A-39ACCB477C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{221A0889-3F32-41EE-A70A-39ACCB477C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{221A0889-3F32-41EE-A70A-39ACCB477C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9CDDEB-1628-456F-B7CE-AC0521E0DD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9CDDEB-1628-456F-B7CE-AC0521E0DD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9CDDEB-1628-456F-B7CE-AC0521E0DD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9CDDEB-1628-456F-B7CE-AC0521E0DD5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
