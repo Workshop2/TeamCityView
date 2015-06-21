@@ -1,8 +1,10 @@
-﻿namespace TeamCityView.Domain
+﻿using TeamCitySharp.DomainEntities;
+
+namespace TeamCityView.Domain
 {
     public interface ITeamServer
     {
         ITeamServer Connect();
-        IBuildStatus[] ListBuildStatusesForTeam(string teamName);
+        Build[] ListBuildStatusesForTeam(string teamName);
     }
 }
